@@ -1,0 +1,47 @@
+.menu-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #333;
+ }
+  
+  .menu-li {
+    display: inline-block;
+  }
+  
+  .menu-li a {
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .menu-li a:hover {
+    background-color: #111;
+  }
+  @font-face {
+   font-family: AlexBrush-Regular ;
+  src: url(../font/AlexBrush-Regular.ttf);
+ }
+
+ .hobby-ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td {
+  height: 50px;
+  vertical-align: bottom;
+}
